@@ -1,0 +1,49 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "hqDDDpue/5363luidNMBS8z8eJU=",
+			"path": "github.com/BurntSushi/toml",
+			"revision": "99064174e013895bbd9b025c31100bd1d9b590ca",
+			"revisionTime": "2016-07-17T15:07:09Z"
+		},
+		{
+			"checksumSHA1": "pA/IgZAUBy3vrKT2z+7v7xHw/N8=",
+			"path": "github.com/denisenkom/go-mssqldb",
+			"revision": "fbf0a491e5ec011522c8870da9b0553135e2f9da",
+			"revisionTime": "2016-08-14T16:33:24Z"
+		},
+		{
+			"checksumSHA1": "5I0G+0o3xHUQ53jlq70Ujrw0d2A=",
+			"path": "github.com/jmoiron/sqlx",
+			"revision": "7396209bbeada6a4fcc28aa9408f89b2e71cac39",
+			"revisionTime": "2016-07-29T03:07:26Z"
+		},
+		{
+			"checksumSHA1": "NJHTyLwheqVk7+syzj9UN7p1dKs=",
+			"path": "github.com/jmoiron/sqlx/reflectx",
+			"revision": "7396209bbeada6a4fcc28aa9408f89b2e71cac39",
+			"revisionTime": "2016-07-29T03:07:26Z"
+		},
+		{
+			"checksumSHA1": "Sh9gSysXXXM1RDCFjI/hamW1FNY=",
+			"path": "github.com/mitchellh/hashstructure",
+			"revision": "b098c52ef6beab8cd82bc4a32422cf54b890e8fa",
+			"revisionTime": "2016-06-09T17:09:29Z"
+		},
+		{
+			"checksumSHA1": "5mWItKRCWy3sT2/2oqAuSaCUxAw=",
+			"path": "github.com/tucnak/telebot",
+			"revision": "6217b8a41bc645355da1d847e8edbf085e361691",
+			"revisionTime": "2016-08-23T15:46:19Z"
+		},
+		{
+			"checksumSHA1": "MCeXr2RNeiG1XG6V+er1OR0qyeo=",
+			"path": "golang.org/x/crypto/md4",
+			"revision": "9e590154d2353f3f5e1b24da7275686040dcf491",
+			"revisionTime": "2016-09-02T16:03:59Z"
+		}
+	],
+	"rootPath": "github.com/kaey/sbot"
+}
