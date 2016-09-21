@@ -96,8 +96,7 @@ func main() {
 	for {
 		select {
 		case msg := <-messages:
-			if msg.Chat.ID != chat.ID && msg.Sender.Username != "rammaq" {
-				bot.SendMessage(msg.Chat, "denied", nil)
+			if msg.Chat.ID != chat.ID {
 				continue
 			}
 
@@ -175,7 +174,7 @@ func filterMessages(messages []TTSMessage) []TTSMessage {
 		if strings.HasPrefix(msg.Text, "Клиенту отправлено сообщение:") {
 			continue
 		}
-		if len(strings.Split(msg.Text, " ")) < 5 {
+		if len(strings.Split(msg.Text, " ")) < 3 {
 			continue
 		}
 		filteredMessages = append(filteredMessages, msg)
