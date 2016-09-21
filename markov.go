@@ -91,7 +91,7 @@ func (c *Chain) Generate(n int) string {
 func (c *Chain) GenerateWithKeyword(keyword string, n int) string {
 	var p Prefix
 	for prefix := range c.prefixChain {
-		if strings.Contains(prefix, keyword) {
+		if strings.Contains(strings.ToLower(prefix), strings.ToLower(keyword)) {
 			p = strings.Split(prefix, " ")
 		}
 	}
